@@ -23,7 +23,7 @@
                 console.log("Not logged in")
                 goto('/login?to=ca')
             }
-        });
+        }).catch(err=>console.log(err));
     }
 
 </script>
@@ -41,6 +41,7 @@
         height: 50px;
         width: 150px;
         left: -20px;
+        top: 0;
         position: absolute;
         justify-content: center ;
         align-items: center;

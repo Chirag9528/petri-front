@@ -62,6 +62,7 @@ import Header from './Header.svelte';
 	}
 
 	@media (min-width: 480px) {
+
 		footer {
 			padding: 12px 0;
 		}
